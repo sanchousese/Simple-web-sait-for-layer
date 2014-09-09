@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Трудове право</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Sidebar menu -->
+    <link rel="stylesheet" href="../css/sidebar-nav.css">
+    <link rel="stylesheet" href="../css/rounded.css">
+    <link rel="stylesheet" href="../css/main-icon.css">
+    <link rel="stylesheet" href="../css/types-of-services.css">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="../js/map.js"></script>
+  </head>
+  <body>
+
+<!-- first contact information -->
+ <div class="container">
+    <div class="row">
+      <div class="col-md-1"><a href="../index.html"><p class="centered"><img class="main-icon" src="../img/icon.png" alt=""></p></a></div>
+      <div class="col-md-7 col-lg-6"><a  href="../index.html"><h2 class="centered" id="top-text">Юридична консультація<br></h2></a>
+      <a href="../index.html"><h2 class="centered title-text"><b><i id="title-text">Екстрена правова допомога</i></b><br></h2></a>
+      <a href="../index.html"><h2 class="centered" id="small-title-text"><small>громадянам та підприємствам</small></h2></a>
+
+      </div>
+      <div class="col-lg-3 col-lg-offset-2 col-md-offset-1" ><h2 class="centered">(096) 497-87-24<br></h2>
+      <h4 class="centered">
+        <small>м.Київ, вул.Гришка, 9, 1 під`їзд <br>1 поверх, 1 офіс</small>
+      </h4></div>
+    </div>
+  </div>
+
+<!-- Main menu -->
+  <div class="container">
+  <hr>
+  <div class="row">
+  <div class="col-sm-3">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Меню</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="main-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="../types-of-services">Види послуг</a></li>
+            <li><a href="../prices">Ціни</a></li>
+            <li><a href="../contacts">Контакти</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#areas-of-law">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Галузі права</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="areas-of-law">
+          <ul class="nav navbar-nav">
+          <li class="active hidden-xs"><a href="" style="pointer-events: none; cursor: default;">Галузі права:</a></li>
+          <li><a href="family">Сімейне</a></li>
+          <li><a href="housing">Житлове</a></li>
+          <li class="active"><a href="labour">Трудове</a></li>
+          <li><a href="land">Земельне</a></li>
+          <li><a href="administrative">Адміністративне</a></li>
+          <li><a href="banking">Банківське</a></li>
+          <li><a href="civil">Цивільне</a></li>
+          <li><a href="tax">Податкове</a></li>
+          <li><a href="commercial">Господарське</a></li>
+          <li><a href="criminal">Кримінальне</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <h1 class="centered">Трудове право</h1>
+    <hr>
+    <div class="row">
+      <div class="col-sm-4"><img src="../img/areas/labour.jpg" alt="" style="width: 100%"></div>
+      <div class="col-sm-8">
+        <p><b>Трудове право</b>  – це самостійна галузь права, яка регулює трудові й тісно пов’язані з ними суспільні відносини. <b>Трудові відносини</b> – це відносини між працівником і власником підприємства, установи, організації або уповноваженим ним органом, згідно з якими працівник зобов’язується виконувати певну роботу з підпорядкуванням внутрішньому трудовому розпорядку, а власник або уповноважений ним орган зобов’язаний оплачувати його працю, створювати належні умови для праці. </p>
+
+      </div>
+    </div>
+    <p style="text-indent: 0px;">Трудове право також регулює інші суспільні відносини, які тісно пов’язані з трудовими:</p>
+    <ul>
+      <li>відносини працевлаштування, зокрема, якщо працівника звільняють з роботи, то він може звернутися за допомогою в орган працевлаштування або працевлаштовується самостійно. Орган працевлаштування пропонує працівнику роботу в тій же чи іншій місцевості за його професією, спеціальністю, кваліфікацією, а при її відсутності – здійснює підбір іншої роботи з урахуванням індивідуальних побажань і суспільних потреб. При необхідності працівника може бути направлено за його згодою на навчання новій професії (спеціальності) з подальшим наданням йому роботи;</li>
+      <li>відносини з виробничого навчання;</li>
+      <li>підвищення кваліфікації;</li>
+      <li>відшкодування збитків, заподіяних працівником підприємству, установі, організації або навпаки.</li>
+    </ul>
+    <p style="text-indent: 0px;">Найважливішу роль у регулюванні трудових відносин відіграє Кодекс законів про працю України (далі КЗпП).</p>
+</div>
+
+</div>
+</div>
+
+
+<div class="container">
+  <div class="col-lg-12 rounded">
+    <h6>Юридична консультація "Екстрена правова допомога" (096) 497-87-24<br>м.Київ, вул.Гришка, 9, 1 під`їзд</h6>
+  </div>
+</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+  </body>
+</html>

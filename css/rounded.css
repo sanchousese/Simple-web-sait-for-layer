@@ -1,0 +1,46 @@
+.rounded {
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-left: 15px;
+    padding-right: 15px;
+	padding-bottom: 5px;
+    background-color: #E0E0E0 ;
+    color: #000000;
+ 
+    /* Скругление: */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#second-title-text {
+    margin-top: 0px; 
+    margin-bottom: 0px;
+}
+
+
+.title-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: rgb(177, 8, 184);
+}
+
+#top-text {
+    font-size: 25px;
+    color: #657D92;
+    margin-bottom: 0px;
+}
+
+#title-text {
+    font-family: 'Times New Roman', cursive;
+}
+
+#small-title-text {
+    font-size: 23px;
+    margin-top: 0px;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Види послуг</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/rounded.css">
+    <link rel="stylesheet" href="css/sidebar-nav.css">
+    <link rel="stylesheet" href="css/main-icon.css">
+    <link rel="stylesheet" href="css/types-of-services.css">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+  <body>
+
+<!-- first contact information -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-lg-1"><a href="index.html"><p class="centered"><img class="main-icon" src="img/icon.png" alt=""></p></a></div>
+      <div class="col-md-7 col-lg-6 col-md-offset-1 col-lg-offset-0"><a  href="index.html"><h2 class="centered" id="top-text">Юридична консультація<br></h2></a>
+      <a href="index.html"><h2 class="centered title-text" style="width: 100%;"><b><i id="title-text">Екстрена правова допомога</i></b><br></h2></a>
+      <a href="index.html"><h2 class="centered" id="small-title-text"><small>громадянам та підприємствам</small></h2></a>
+
+      </div>
+      <div class="col-lg-3 col-lg-offset-2 col-md-offset-1" ><h2 class="centered">(096) 497-87-24<br></h2>
+      <h4 class="centered">
+        <small>м.Київ, вул.Гришка, 9, 1 під`їзд <br>1 поверх, 1 офіс</small>
+      </h4></div>
+    </div>
+  </div>
+
+  <div class="container">
+  <hr>
+  <div class="row">
+  <div class="col-sm-3">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Меню</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="main-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Головна</a></li>
+            <li class="active"><a href="types-of-services">Види послуг</a></li>
+            <li><a href="prices">Ціни</a></li>
+            <li><a href="contacts">Контакти</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#areas-of-law">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Галузі права</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="areas-of-law">
+          <ul class="nav navbar-nav">
+          <li class="active hidden-xs"><a href="" style="pointer-events: none; cursor: default;">Галузі права:</a></li>
+          <li><a href="areas-of-law/family">Сімейне</a></li>
+          <li><a href="areas-of-law/housing">Житлове</a></li>
+          <li><a href="areas-of-law/labour">Трудове</a></li>
+          <li><a href="areas-of-law/land">Земельне</a></li>
+          <li><a href="areas-of-law/administrative">Адміністративне</a></li>
+          <li><a href="areas-of-law/banking">Банківське</a></li>
+          <li><a href="areas-of-law/civil">Цивільне</a></li>
+          <li><a href="areas-of-law/tax">Податкове</a></li>
+          <li><a href="areas-of-law/commercial">Господарське</a></li>
+          <li><a href="areas-of-law/criminal">Кримінальне</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9">
+     <h1 class="centered">Види послуг, які надаються</h1>
+      
+      <p class="forms-text" style="padding-top: 15px; margin-left: 10px; padding-left: 15px; text-indent: 0px;">
+      1. <a href="#modal1" data-toggle="modal">Складання заяв, скарг, судових позовів та всіх інших видів процесуальних документів;</a><br><br>
+      2. <a href="#modal2" data-toggle="modal">Консультації за всіма галузями права;</a><br><br>
+      3. <a href="#modal3" data-toggle="modal">Збір документів та правовий супровід отримання громадянства або виду на проживання;</a><br><br>
+      4. <a href="#modal4" data-toggle="modal">Збір документів та правовий супровід отримання паспорта громадянина України, закордонного паспорта та проїзного документу дитини;</a><br><br>
+      5. <a href="#modal5" data-toggle="modal">Оскарження до суду та вищестоящого керівника дій та рішень посадових осіб державних, громадських та правоохоронних органів;</a><br><br>
+      6. <a href="#modal6" data-toggle="modal">Представництво в органах влади та судах усіх інстанцій.</a><br><br>
+      7. <a href="#modal7" data-toggle="modal">Досудове врегулювання спору між громадянами, між громадянами та підприємствами.</a><br><br>
+      8. <a href="#modal8" data-toggle="modal">Консультації у кримінальному провадженні.</a><br><br>
+      9. <a href="#modal9" data-toggle="modal">Консультації в адміністративному провадженні</a></p>
+  </div>
+
+</div>
+</div>
+
+              <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Складання заяв, скарг, судових позовів та всіх інших видів процесуальних документів</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> На практиці, як у грормадян так і підприємств, за різних життєвих та виробничих обставин виникає необхідність в підготовці різноманітних заяв, скарг, звернень, запитів, повідомлень, позовних заяв, процесуальних документів у цивільному, господарському, кримінальному та інших провадженнях.<br><br><b>  Заява</b> - це письмовий документ у якому громадянин або керівник підприємства звертається до керівників державних органів влади, їх підрозділів громадських організацій з проханням виконати певні законні дії, які в силу тих чи інших обставин потребує заявник( видача дозвільних документів, надання різноманітних допомог, грошових нарахувань, видача документів, оформлення опіки, права власності, права користування тощо)<br><br>  <b>Скарга</b> - письмовий документ у якому громамдянин, його предстваник, керівник підприємства звертається до державних, правоохоронних органів, громадських організацій із скаргами на неправомірні дії чи рішення посадових осіб або працівників цих органів, дії та рішення яких на думку заявника порушили їх права, спричинили шкоду майну, здоров'ю із вимогою поновити права, відшкодувати завдану матеріальну та моральну шкоду та притягнути виннних до передбаченої Законом відповідальності.<br><br>  <b>Звернення</b> – письмовий документ громадянина до органів державної влади, місцевого самоврядування, об'єднань громадян, підприємств, установ, засобів масової інформації, посадових осіб із зауваженнями, пропозиціями, скаргами що стосується їх статутної діяльності.<br><br> <b>Депутатске звернення</b> - письмовий документ громадянина, підприємства до депутатів усіх рівнів з проханням вжити заходи у межах депутатських повноважень щодо поновлення порушених прав з доку державних, правоохоронних органів, громадських організацій, підприємств та окремих осіб.<br><br>  <b>Депутатський запит</b> – письмовий документ до сесії певної Ради з вимогою оголосити його на пленарному засіданні ради і зазначити вимоги громадянина, підприємства про поновлення його порушених прав. Депутатський запит та депутатське зверння є дієвими засобами впливу на посадових осіб у спонуканні їх до приняття законних рішень, оскільки його розгляд береться на контроль відповідним вищестоящим органом, а відповідь надається особисто керівництвом органу, дії якого оскаржуються. На депутатський запит інформація скеровується Голові відповідної ради про результати його розгляду, що підсилює його єфективність.<br><br> <b>Судовий позов</b> – передбачений процесуальним законодавством письмовий документ позивача(особи, права якої порушені) до відповідача( порушника прав відповідача) до суду про зобов`язання усунути допущені порушення та відшкодувати завдані збитки.<br><br>  <b>Процесуальний документ</b> - це визначений певним процесуальним кодексом України документ, за всіма галузями права, яким встановлено порядок реалізації положень діючого законодавства, виконання окремих його норм, здійснення процедур, як то досудового, судового слідства, оскарження дій та рішень слідчих, судових органів, виконання судових рішень тощо.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+ 
+              <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Консультації за всіма галузями права</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> На головній сторінці нашого сайту визначено коло галузей права за якими ми надаємо юридичну допомогу у вигляді консультації та представлення інтересів громадян за доручення (сімейне, земельне, кримінальне, податкове, фінансове, банківське, цивільне, господарське та інші) <br><br>  Усі життєві обставини громадянина регулюються правовими нормами, які встановлюють права, межі, обов'язки та порядок їх поновлення за тих чи інших обставин. <br><br>  Наші фахівці допоможуть вам розібратися із проблемою що виникла, визначать до якої галузі права вона відноситься, визначать механізми її вирішення, запропонують оптимальні дії та матеріальні затрати.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Збір документів та правовий супровід отримання громадянства та вида на проживання</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> Це є адміністративною послугою, яка надається органом державної влади - підрозділами міграційної служби України щодо отримання іноземними громадянами, які виявили бажання проживати на законних підставах на території України, дозволу на імміграцію, видача посвідки на тимчасове проживання, оформлення посвідки на постійне проживання, отримання громадянства тощо.<br><br> Наші фахівці після зустрічі з особою, якій необхідно оформити відповідні імміграційні документи, з'ясовують статус ціїє особи, вивчають наявні документи особи та визначають наявність законних підствав для отримання відповідного дозвільного документу. У подальшому проводять збір, копіювання, витребовування та оформлення встановлених законом документів та, діючи за дорученням особи, скеровують їх до відповідного підрозділу міграційної служби і контролюють порядок та строки їх видачі.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Збір та оформлення документів отримання паспорта громадянина України, закордонного паспорта та проїзного документу дитини</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> У сучасному ритмі життя, зайнятості навчанням, працею, перебуванням на лікуванні, відпочинку тощо, наші громадяни немають достатньо вільного часу зібрати, оформити та подати необхідні документи для отримання або заміну втраченого паспорта громадянина України. <br><br>  Інколи терміновість відрядження, відпочинку за кордоном потребує негайного отримання закордонного паспорта, що також потребує певних затрат часу та збору документів. <br><br>  Виїзд за кордон з дитиною до 18 років неможливо без проїздного документу дитини. В більшості і невідкладно це виникає коли батьки працюють, зайняті іншими справами, а бабуся, дід, сестра, брат або інша особа можуть супроводити дитину чи то на відпочинок або лікавання за кордоном. <br><br> Наші працівники нададуть Вам необхідну консультаціію, допоможуть зібрати необхідні документи, правильно їх оформлять, роз`яснять порядок прискореного отримання документів або ж за дорученням отримають їх за Вас, чим збережуть Ваш час та оптимізують затрати.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Оскарження до суду та вищестоящого керівника дій та рішень посадових осіб державних, громадських та правоохоронних органів</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> Рішення посадових осіб державних і правоохоронних органів, органів контролю, місцевого самоврядування( місцеві ради, їх голови, посадові особи) у формі різноманітних наказів, розпоряджень, вказівок тощо можуть суперечити закону і порушувати права громадянина чи працівника підприємства або установи. Для поновлення порушених прав діючим законодавством встановлено певний порядок, який передбачає підготовку письмової заяви до керівника органу, дії посадових осіб якого оскаржуються. Окремі рішення та дії посадових осіб, їх органів оскаржуються в судовому порядку. Ми визначимо форму Вашої скарги та орган чи судову інстанцію до якої подається скарга чи заява. Допоможемо зібрати необхідні документи і підготувати текст заяви або скарги. За бажанням особи будемо представляти інтереси особи у відповідному органі влади або суді.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Представництво в органах влади та судах</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> Представництво є правовідношення, в якому одна сторона (представник) зобов`язана або має право вчинити правочин від імені другої сторони, яку вона представляє. <br><br>  Представництво здійснюється за довіреністю - письмовим документом, що видається однією особою іншій особі для представництва перед третіми особами. <br><br>  Форма довіреності може бути звичайною письмовою або письмовою нотаріальною. Нотаріально посвідчена довіреність вимагається на вчинення правочину, який потребує нотаріального посвідчення у випадках, передбачених законом або домовленістю сторін. <b>Наприклад:</b> довіреність фізичної особи на ведення справи в адміністративному суді посвідчується нотаріально або посадовою особою підприємства, установи, організації, в якій довіритель працює, навчається, перебуває на службі, стаціонарному лікуванні, чи за рішенням суду або за місцем його проживання(перебування). <br><br> За дорученням громадянина наш фахівець може вступити у справу на будь-якій стадії. За необхідності буде представляти інтереси довірителя в будь-яких державних, правоохоронних органах, підприємствах та громадських організаціях. Прийме участь у судах під час розгляду позовів, як на стороні відповідача так і позивача, а також у справах про адміністративні правопорушення. Участь адвоката у кримінальному провадженні регламентовано Кримінальним процесуальним кодексом України та Законом України «Про адвокатуру».</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Досудове врегулювання спору між громадянами, між громадянами та підприємствами</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> Спори за всіма галузями права, які виникають між громадянами, так і громадянами та різними державними і громадськими органами та організаціями, як правило завершуються розглядом в суді та винесенням рішення. Процедура судового розгляду та виконання судового рішення займає багато часу та матеріальних затрат. <br><br>  Існує визнаний історією шлях досудового врегуювання спору. Наш юрист, вивчивши ситуацію, зваживши положення кожної сторонни, за дорученням особи, проведе зустріч з вашими опонентами, шляхом переговорів, переконань, надання вагомих документальних підтверджень, оперуючи нормами закону, дійде згоди до примирення та повного або часткового поновлення Ваших прав та відшкодування завданої шкоди. Все це відбуватиметься лише за Вашої згоди, документального та особистого переконання.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+
+              <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Консультації у кримінальному провадженні</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> Юристи нашої консультації, які мають велики досід роботи в правоохоронних органах, допоможуть Вам правильно та відповідно до вимог Кримінально–процессуального Кодексу України підготувати повідомлення про кримінальне правопорушення (злочин), визначити підслідність та територію проведення досудового розслідування за Вашим повідомленням. Допоможуть супроводити рух повідомлення, своєчасне внесення його слідчим та прокурором до ЄРДР(Єдиного реєстру досудових розслідувань). <br><br> Також нададуть консультацію і допомогу щодо підготовки відповідних клопотань, заяв, скарг на дії та рішення слідчого і прокурора, в тому числі і до слідчого судді. <br><br> Володіючи методикою розкриття та розслідування різних видів злочинів (від крадіжок з квартир, грабежів, розбоїв до безвісного зникнення громадян, умисних вбивств, згвалтувань, посадових злочинів, зловживань службовим становищем, розкрадань грошових коштів та майна, отримання неправомірної вигоди (хабарництво), допоможемо підготувати відповідні клопотання до слідчого та процесуального прокурора, а також фахово проконтролювати <br><br> У стислі строки та на законних підставах допоможемо запобігти незаконному притягненню до кримінальної відповідальності, незаконному затриманню та арешту.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+              <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title centered">Консультації в адміністративному провадженні</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p> На сьогодні велика кількість контролюючих та правоохоронних органів мають повноваження складати протоколи та притягувати громадян до адміністративної відповідальності у вигляді штрафів, адміністративних арештів та інших покарань(порушення правил дорожнього руху, санітарних, будівельних, технічних норм, громадського порядку та багато інших) <br><br> У більшості випадків протоколи складаються безпідставно, за відсутності складу правопорушення, допускаються порушення прав громадян при винесенні адміністративних стягнень. Однак, через незнання законів, браку чусу, небажання «зв'язуватися» з державою люди підписують протоколи і погоджуються з незначними, на перший погляд, санкціями - призначеними покараннями. <br><br> Однак, в подальшому це обліковує в базах данних людину, як таку що притягувалася до адміністративної відповідальності і може негативно вплинути на Вашу долю та долю близьких (прийняття на роботу, поступлення на навчання тощо) <br><br> Якщо Ви звернетесь до нас, бажано своєчасно, відразу після події та складання протоколу, або ж винесення постанови посадовою особою чи судом, ми допоможемо Вам підготувати письмове оскарження рішення та за Вашим бажанням представлятимемо Ваші інтереси під час процедури оскарження.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+  </div>
+
+
+
+  <div class="container">
+    <div class="col-lg-12 rounded">
+      <h6>Юридична консультація "Екстрена правова допомога" (096) 497-87-24<br>м.Київ, вул.Гришка, 9, 1 під`їзд, 1 поверх, 1 кімната</h6>
+    </div>
+  </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

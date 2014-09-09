@@ -1,0 +1,26 @@
+.list-areas {
+	font-size: 20px;
+}
+
+.li-areas {
+	margin-bottom: 10px;
+}
+
+.lefted {
+	margin-top: 2px;
+	text-align: left;
+}
+
+.forms-text {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background: #FAFAFA;
+	border: 1px solid #9BA4AA;
+	font-size: 17px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

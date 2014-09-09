@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ціни</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Sidebar menu -->
+    <link rel="stylesheet" href="css/sidebar-nav.css">
+    <link rel="stylesheet" href="css/rounded.css">
+    <link rel="stylesheet" href="css/main-icon.css">
+    <link rel="stylesheet" href="css/prices.css">
+    
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style type="text/css" media="screen">
+      p {
+        text-indent: 0px;
+      }
+    </style>
+  </head>
+  <body>
+
+<!-- first contact information -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-lg-1"><a href="index.html"><p class="centered"><img class="main-icon" src="img/icon.png" alt=""></p></a></div>
+      <div class="col-md-7 col-lg-6 col-md-offset-1 col-lg-offset-0"><a  href="index.html"><h2 class="centered" id="top-text">Юридична консультація<br></h2></a>
+      <a href="index.html"><h2 class="centered title-text" style="width: 100%;"><b><i id="title-text">Екстрена правова допомога</i></b><br></h2></a>
+      <a href="index.html"><h2 class="centered" id="small-title-text"><small>громадянам та підприємствам</small></h2></a>
+
+      </div>
+      <div class="col-lg-3 col-lg-offset-2 col-md-offset-1" ><h2 class="centered">(096) 497-87-24<br></h2>
+      <h4 class="centered">
+        <small>м.Київ, вул.Гришка, 9, 1 під`їзд <br>1 поверх, 1 офіс</small>
+      </h4></div>
+    </div>
+  </div>
+
+<!-- Main menu -->
+  <div class="container">
+  <hr>
+  <div class="row">
+  <div class="col-sm-3">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Меню</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="main-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="types-of-services">Види послуг</a></li>
+            <li class="active"><a href="prices">Ціни</a></li>
+            <li><a href="contacts">Контакти</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#areas-of-law">
+            <span class="sr-only">Навігація</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Галузі права</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse" id="areas-of-law">
+          <ul class="nav navbar-nav">
+          <li class="active hidden-xs"><a href="" style="pointer-events: none; cursor: default;">Галузі права:</a></li>
+          <li><a href="areas-of-law/family">Сімейне</a></li>
+          <li><a href="areas-of-law/housing">Житлове</a></li>
+          <li><a href="areas-of-law/labour">Трудове</a></li>
+          <li><a href="areas-of-law/land">Земельне</a></li>
+          <li><a href="areas-of-law/administrative">Адміністративне</a></li>
+          <li><a href="areas-of-law/banking">Банківське</a></li>
+          <li><a href="areas-of-law/civil">Цивільне</a></li>
+          <li><a href="areas-of-law/tax">Податкове</a></li>
+          <li><a href="areas-of-law/commercial">Господарське</a></li>
+          <li><a href="areas-of-law/criminal">Кримінальне</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9">
+  <h1 style="text-align: center; margin-top: 0px;">Ціни</h1>
+  <p>У кожному окремому випадку визначається обсяг наданих послуг та доступність їх оплати замовником.</p>
+   <table style="width: 100%" border="1">
+     <tr>
+       <td><p class="table-cell-main">Види послуг</p></td>
+       <td><p class="table-cell-main">Ціна, грн.</p></td>
+     </tr>
+      <tr>
+       <td><p class="table-cell table-cell-curr">Консультація онлайн</p></td>
+       <td><p class="table-cell table-cell-curr">Безкоштовно</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Усна консультація при зустрічі</p></td>
+       <td><p class="table-cell table-cell-curr">100-300</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Письмова консультація зі складанням висновків( в залежності від складності та обсягу сторінок)</p></td>
+       <td><p class="table-cell table-cell-curr">від 200</p></td>
+     </tr>
+      <tr>
+       <td><p class="table-cell table-cell-curr">Виїзд юриста за домовленістю із замовником</p></td>
+       <td><p class="table-cell table-cell-curr">500-1000</p></td>
+     </tr>
+      <tr>
+       <td><p class="table-cell table-cell-curr">Виїзд на місце ДТП та консультування з приводу подальших дій</p></td>
+       <td><p class="table-cell table-cell-curr">500-1000</p></td>
+     </tr>      
+     <tr>
+       <td><p class="table-cell table-cell-curr">Участь у судовому засіданні, що відбулося (1 година)</p></td>
+       <td><p class="table-cell table-cell-curr">від 200</p></td>
+     </tr>      
+     <tr>
+       <td><p class="table-cell table-cell-curr">Участь у судовому засідання, що не відбулося (1 година)</p></td>
+       <td><p class="table-cell table-cell-curr">100</p></td>
+     </tr>      
+     <tr>
+       <td><p class="table-cell table-cell-curr">Складання заяв, скарг,звернень, договорів, інструкцій, претензій, заперечень, всіх процесуальних судових документів, апеляційних, касаційних скарг</p></td>
+       <td><p class="table-cell table-cell-curr">від 300</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Комплексне ведення справ, з участю в судових засіданнях</p></td>
+       <td><p class="table-cell table-cell-curr">від 800</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Збір та оформлення документів для отримання громадянства України та виду на проживання</p></td>
+       <td><p class="table-cell table-cell-curr">від 1000</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Збір та оформлення документів для отримання паспорта громадянина України та закордонного паспорта</p></td>
+       <td><p class="table-cell table-cell-curr">від 500</p></td>
+     </tr>
+     <tr>
+       <td><p class="table-cell table-cell-curr">Отримання дозвільних документів</p></td>
+       <td><p class="table-cell table-cell-curr">від 500</p></td>
+     </tr>
+
+   </table>
+   <p style="margin-top: 3px">Проїзд за межі Києва за рахунок замовника. Можливі і інші форми розрахунку за домовленістю.</p>
+  </div>
+
+</div>
+</div>
+
+
+  <div class="container">
+    <div class="col-lg-12 rounded">
+      <h6>Юридична консультація "Екстрена правова допомога" (096) 497-87-24<br>м.Київ, вул.Гришка, 9, 1 під`їзд, 1 поверх, 1 кімната</h6>
+    </div>
+  </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
